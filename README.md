@@ -3,7 +3,7 @@
 use sakila;
 
 **1a. Display the first and last names of all actors from the table actor.**
-```
+```mysql
 select first_name, last_name
 from actor;
 ```
