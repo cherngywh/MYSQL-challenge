@@ -7,6 +7,11 @@ use sakila;
 select first_name, last_name
 from actor;
 ```
+# first_name, last_name
+'PENELOPE', 'GUINESS'
+'NICK', 'WAHLBERG'
+'ED', 'CHASE'
+
 **1b. Display the first and last name of each actor in a single column in upper case letters. Name the column Actor Name.**
 ```mysql
 select concat(first_name, " ", last_name) as Actor_Name
